@@ -1,0 +1,13 @@
+---
+# This file is a map of datacenter capabilities. 
+# Intended use is for automation to be able to quickly identify functions, 
+# their maturity and coordinates like hostnames, IP addresses, URLs and 
+# other endpoints needed to execute automation
+
+datacenter: omaha
+  dc_code: oma
+  dc_address: 
+
+datacenter: integrationlab
+  dc_code: integrationlab
+  dc_address: 
