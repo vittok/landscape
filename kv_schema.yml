@@ -1,0 +1,102 @@
+---
+# this file is a map of datacenter capabilities. 
+# intended use is for automation to be able to quickly identify functions, 
+# their maturity and coordinates like hostnames, ip addresses, urls and 
+# other endpoints needed to execute automation
+
+datacenters:
+  na:
+    us:
+      - omaha:
+      - aksarben:
+        purpose: lab
+        street: aksarben
+        city: omaha
+      - chandler:
+      - johns creek:
+      - lewisville:
+    canada:
+      - queb1:
+        purpose: prod
+        street: 1100 e. cremazie blvd.
+        city: quebec
+  lac:
+    argentina:
+      - arbue1:
+        purpose: prod
+        street: rondeau 3400 buenos aires p. patricios
+        city: buenos aires
+      - arbue2:
+        purpose: dr
+        street: 143 peru, zdo piso
+        city: buenosaires
+    panama: 
+      - papty1:
+        purpose: tap
+        street: building 217, pullen street, city of knowledge, clayton
+        city: panama
+      - papty2:
+        purpose: tap
+        street: calle punta darién, punta pacifica, p.h. torre de las américas
+        city: panama
+    brazil:
+      - bthtl1:
+        purpose:
+        street: hortolândia rod jorn francisco aguirre proença chácaras assay
+        city: hortolândia
+      - brtut1:
+        street: rua tutóia, vila mariana 1157 - ibm
+        city: são paulo
+    costarica:
+  apac:
+    australia:
+      - ausyd1:
+        purpose:
+        street: unit 6, bellevue circuit - fujitsu
+        city: sydney
+      - ausyd2:
+        purpose: 
+        street: 23-25 waterloo road - fujitsu
+        city: sydney
+    india:
+      - inbom1:
+        purpose:
+        street: asha usha compound ibm netmagic co-location
+        city: mumbai
+      - inbom2:
+        purpose:
+        street: lighthall 'c' wing hiranandani business park, saki vihar rd, chandivali, mumbai, maharashtra
+        city: mumbai
+    china:
+      - cnsuh1:
+        purpose:
+        street: no.328 xinghu road
+        city: shanghai
+      - cnszn1:
+        purpose:
+        street: 51-5 hongliu road shenzhen
+        city: shenzhen
+    korea:
+      - krsel1:
+        purpose:
+        street: DigitalMediaCity B5-3 - LG Data Centre
+        city: seoul
+  emea:
+    germany:
+      - defra1: #eshelter
+        purpose: prod
+        street: eschborner landstraße 100 
+        city: frankfurt am main
+      - defra2: #equinix
+        purpose: prod
+        street: Kruppstrasse 121-127
+        city: frankfurt am main
+    poland:
+      - plwaw1:
+        purpose: prod
+        street: Al.. Jana Pawla II, 
+        city: piaseczno warsaw
+      - plwaw2:
+        purpose: prod
+        street: Grochowska Str.
+        city: warsaw
