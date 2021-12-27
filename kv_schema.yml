@@ -2,7 +2,7 @@
 # this file is a map of datacenter capabilities. 
 # intended use is for automation to be able to quickly identify functions, 
 # their maturity and coordinates like hostnames, ip addresses, urls and 
-# other endpoints needed to execute automation
+# other endpoints needed to execute automation.
 
 datacenters:
   na:
